@@ -1,5 +1,5 @@
 # kaolin-FUD-MTOM-XOP
-kaolin-FUD-MTOM-XOP is a lightweight java library which the aim is to add file upload/download capability to a JAX-WS based java application without any effort of writing a web service. Il relies upon MTOM and XOP. 
+kaolin-FUD-MTOM-XOP is a lightweight java library which the aim is to add file upload/download capability to a JAX-WS based java application without any effort of writing a web service. it relies upon MTOM and XOP. 
 
 There are two ways to benefit from the advantages of the library. It gives two possible  implementations. we can implement the operation in a separate class or in the main class, depending on our taste. The only difference, in fact, is the number of classes to write. 
 
