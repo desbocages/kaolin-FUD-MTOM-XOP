@@ -20,7 +20,7 @@ import kaolin.mtom.fud.handling.FUDFileHandler;
 /**
  * This is a simple helper class to create content and upload.
  *
- * @author Yale
+ * @author Desbocages
  */
 public class DefaultUploader {
 

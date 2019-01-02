@@ -15,7 +15,7 @@ import kaolin.mtom.fud.handling.FUDFileHandler;
 /**
  * This is a simple helper class to create content and download.
  *
- * @author Yale
+ * @author Desbocages
  */
 public class Downloader {
 
