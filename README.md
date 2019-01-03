@@ -209,7 +209,7 @@ Here is an example for image files.
 
 We do the same thing for FUDImageFile that only takes images.
 
-## Writing a client
+## Configuring the client app
 
 To access this webservice, let's write a small client app. 
 As we exposed our services with Apache CXF, let's configure the client relying upon CXF too.
@@ -266,6 +266,8 @@ The configuration file is the one below. Let's name it `cxf-client.xml`
 </beans>
 ```
 Let's write a small app that frist downloads a specified file on the server, then takes a jpg file and sends it to the server. We will consider the configuration files presented above and thus, just write the java codes of the client and the server to let things be more clear.
+
+## Demonstrating by an example
 
 ### The server with the second method
 
@@ -389,6 +391,7 @@ public class FUDService extends AbstractFUDServiceHandlerImpl{
 }
 
 ```
+## The client app
 
 Now it is the turn of the client. Here is its implementation. It gets an instance of the proxy and frist downloads a specified file on the server, then takes a jpg file and sends it to the server.
 
